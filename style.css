@@ -1,0 +1,102 @@
+body{
+    width: 940px;
+    background-color: #E5E5E5;
+}
+
+#logo{
+    position: relative;
+    margin: 39px 39px;
+}
+
+#texto{
+    position: relative;
+    left: 240px;
+    padding: 0%;
+    border: none;
+    outline: none;
+    background-color: #E5E5E5;
+    font-size: 24px;
+    color: #0A3871;
+}
+
+.zondicons--exclamation-solid {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%23000' d='M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07M9 5v6h2V5zm0 8v2h2v-2z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+.textito{
+    position: relative;
+    left: 265px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+
+.botones{
+    position: relative;
+    left: 240px;
+    padding: 20px;
+}
+
+#btn-encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-color: #0A3871;
+    border-radius: 25px;
+    padding: 25px 67px;
+    font-family: "Inter", sans-serif;
+}
+
+#btn-desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871;
+    border-radius: 25px;
+    padding: 25px 67px;
+    font-family: "Inter", sans-serif;
+}
+
+#msg{
+    width: 400px;
+    height: 810px;
+    position: absolute;
+    top: 40px; left: 1000px;
+    padding: 0%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #495057;
+}
+
+#mune{
+    position: absolute;
+    top: 283.17px; left: 1032px;
+}
+
+
+#Mensajent{
+    position: absolute;
+    top: 650px; left: 1100px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.nin{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.in{
+    padding: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+        <img id="logo" src="Imagenes/Logo.png">
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+
+        <div>
+          <textarea type="text" name="texto" placeholder="Ingrese el texto aqui" id="texto" cols="40" rows="15"></textarea>
+          <p class="textito"><span class="zondicons--exclamation-solid"></span>Solo letras minusculas y sin acentos.</p>
+        </div>
+          
+          <div class="botones">
+            <p>
+              <input class="btn" type="button" onclick="myFunction()" value="Encriptar" id="btn-encriptar">
+              <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar">
+
+            </p>
+          </div>
+          
+      </form>
+    </section>
+  
+    <section class="msg box">
+      
+      <input class="salida" type="text" id="msg">
+
+      <img id="mune" src="Imagenes/Muñeco.png">
+
+      <div id="Mensajent">
+      
+        <p class="nin"><b>Ningun mensaje fue encontrado</b></p>
+        <p class="in">Ingresa el texto que quieras encriptar o desencriptar</p>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+  <script src="Copiar-pegar.js"></script>
+</body>
+</html>
